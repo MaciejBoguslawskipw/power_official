@@ -4,8 +4,8 @@ from cx_Freeze import setup, Executable
 base = "Win32GUI" if sys.platform == "win32" else None
 
 setup(
-    name="DziennikPro",
+    name="Power_Official",
     version="1.0",
-    description="Aplikacja DziennikPro",
-    executables=[Executable("dziennikpro.py", base=base)],
+    description="Aplikacja do obliczania napiec",
+    executables=[Executable("official_power.py", base=base)],
 )
